@@ -1,7 +1,9 @@
 "use strict"
 
-let a=1, b=1;
-let c=++a;
-alert(a);
-alert(b);
-alert(c);
+let year = prompt("vvedite kakoy god", '');
+if(year==2025){
+alert("Pravilno");
+}
+else{
+    alert("nepravilno");
+}
