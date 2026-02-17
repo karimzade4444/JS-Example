@@ -10,8 +10,18 @@
 // let grad = (f1,f2)=>(f1 *f2)
 // console.log(grad(5,4))
 
-let grad = (f1)=>(f1 *2)
-console.log(grad(5))
+// let grad = (f1)=>(f1 *2)
+// console.log(grad(5))
+
+let big = (b1,b2)=>{
+if(b1>b2){
+return b1;
+}
+else{
+    return b2;
+}
+}
+console.log(big(5,6))
 
 
 
