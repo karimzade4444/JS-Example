@@ -78,12 +78,15 @@
 // let Average = (n1,n2)=>((n1+n2)/2)
 // console.log(Average(5,6))
 
-let Pos = (num)=>{
-    if(num%2==0){
-return 3;
-    }
-    else{
-        return 4;
-    }
-}
-console.log(Pos(-6))
+// let Pos = (num)=>{
+//     if(num%2==0){
+// return 3;
+//     }
+//     else{
+//         return 4;
+//     }
+// }
+// console.log(Pos(-6))
+
+let Calc = (x)=>((17*x*x)-(6*x)+13)
+console.log(Calc(2))
