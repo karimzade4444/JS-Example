@@ -54,20 +54,22 @@
 // }
 // console.log(Sum(26,75))
 
-let Time = (h,m,s)=>{
-let hs = h*3600;
-let ms = m*60;
-if(hs>ms && hs>s){
-return h;
-}
-else if(ms>hs && ms>s){
-return m;
-}
-else{
-    return s;
-}
-}
-console.log(Time(2, 119, 9600))
+// let Time = (h,m,s)=>{
+// let hs = h*3600;
+// let ms = m*60;
+// if(hs>ms && hs>s){
+// return h;
+// }
+// else if(ms>hs && ms>s){
+// return m;
+// }
+// else{
+//     return s;
+// }
+// }
+// console.log(Time(2, 119, 9600))
 
+let Perimetr = (pm)=>(pm*4)
+console.log(Perimetr(7))
 
 
