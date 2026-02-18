@@ -72,6 +72,8 @@
 // let Perimetr = (pm)=>(pm*4)
 // console.log(Perimetr(7))
 
-let Area = (p)=>(p*p)
-console.log(Area(7))
+// let Area = (p)=>(p*p)
+// console.log(Area(7))
 
+let Average = (n1,n2)=>((n1+n2)/2)
+console.log(Average(5,6))
