@@ -88,5 +88,13 @@
 // }
 // console.log(Pos(-6))
 
-let Calc = (x)=>((17*x*x)-(6*x)+13)
-console.log(Calc(2))
+// let Calc = (x)=>((17*x*x)-(6*x)+13)
+// console.log(Calc(2))
+
+// let sum3 = (num)=>{
+// let n1 = Math.round(num)%10;
+// let n2 = Math.round(num/10)%10;
+// let n3 = Math.round(num/100);
+// return n1+n2+n3;
+// }
+// console.log(sum3(123))
