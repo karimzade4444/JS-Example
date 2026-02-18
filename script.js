@@ -69,7 +69,9 @@
 // }
 // console.log(Time(2, 119, 9600))
 
-let Perimetr = (pm)=>(pm*4)
-console.log(Perimetr(7))
+// let Perimetr = (pm)=>(pm*4)
+// console.log(Perimetr(7))
 
+let Area = (p)=>(p*p)
+console.log(Area(7))
 
