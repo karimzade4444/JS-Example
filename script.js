@@ -34,15 +34,25 @@
 // }
 // console.log(sum3(123))
 
-let SumPos = (num)=>{
-if(num%2==0){
-return num+1;
+// let SumPos = (num)=>{
+// if(num%2==0){
+// return num+1;
+// }
+// else{
+//     return num-2;
+// }
+// }
+// console.log(SumPos(21))
+
+let Sum = (n1,n2)=>{
+if(n1+n2<=100){
+    return true
 }
 else{
-    return num-2;
+    return false
 }
 }
-console.log(SumPos(21))
+console.log(Sum(26,75))
 
 
 
