@@ -98,3 +98,16 @@
 // return n1+n2+n3;
 // }
 // console.log(sum3(123))
+
+let barobar = (num)=>{
+let n1 = Math.round(num)%10;
+let n2 = Math.round(num/10)%10;
+let n3 = Math.round(num/100);
+if(n3==n2 || n3==n1 || n2==n1){
+return true;
+}
+else{
+    return false;
+}
+}
+console.log(barobar(213))

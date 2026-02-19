@@ -9,19 +9,19 @@
 
 // console.log(a.jam());
 
-let Calc = {
-   sum:(n1,n2)=>{
-    return n1+n2;
-   },
-   minus:(n1,n2)=>{
-    return n1-n2;
-   },
-   zarb:(n1,n2)=>{
-    return n1*n2;
-   },
-   taqsim:(n1,n2)=>{
-    return n1/n2;
-   },
-}
+// let Calc = {
+//    sum:(n1,n2)=>{
+//     return n1+n2;
+//    },
+//    minus:(n1,n2)=>{
+//     return n1-n2;
+//    },
+//    zarb:(n1,n2)=>{
+//     return n1*n2;
+//    },
+//    taqsim:(n1,n2)=>{
+//     return n1/n2;
+//    },
+// }
 
-console.log(Calc.sum())
+// console.log(Calc.sum())
