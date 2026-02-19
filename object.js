@@ -148,11 +148,30 @@
 
 // console.log(as("alo", "sad4"));
 
-function MS(obj) {
-  let newBanka = {};
-  for (key in obj) {
-    newBanka[(obj[key])] = key;
+// function MS(obj) {
+//   let newBanka = {};
+//   for (key in obj) {
+//     newBanka[(obj[key])] = key;
+//   }
+//   return newBanka;
+// }
+// console.log(MS({ a: 1, b: 2 }));
+
+function ms(array) {
+  let obj = {
+    name: 0,
+    age: 0,
+  };
+  for (let i = 0; i < array.length; i++) {
+    if (obj.age < array[i].age) {
+      obj = array[i];
+    }
   }
-  return newBanka;
+  return obj;
 }
-console.log(MS({ a: 1, b: 2 }));
+console.log(
+  ms([
+    { name: "John", age: 22 },
+    { name: "Johnson", age: 39 },
+  ]),
+);
