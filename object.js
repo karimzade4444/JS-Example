@@ -49,17 +49,29 @@
 // console.log(objKV({ a: 1, b: 2 }));
 
 
-function ob(obj) {
-  for (let key in obj) {
-    if (obj[key] === undefined) {
-      return true;
-    }
-  }
-  return false;
+// function ob(obj) {
+//   for (let key in obj) {
+//     if (obj[key] === undefined) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+// console.log(ob({ name: undefined, age: 11 })); 
+// console.log(ob({ name: false, age: 14 }));   
+// console.log(ob({ name: "john", age: 14 }));    
+
+let obj = (n,y)=>{
+let object = {
+   name: n,
+   year: y,
+   age: 2026-y,
+   start: y+7,
+   end: y+18
 }
-console.log(ob({ name: undefined, age: 11 })); 
-console.log(ob({ name: false, age: 14 }));   
-console.log(ob({ name: "john", age: 14 }));    
+return object;
+}
+console.log(obj("MS", 2005))
 
 
 
