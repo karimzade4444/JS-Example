@@ -99,15 +99,28 @@
 // }
 // console.log(sum3(123))
 
-let barobar = (num)=>{
-let n1 = Math.round(num)%10;
-let n2 = Math.round(num/10)%10;
-let n3 = Math.round(num/100);
-if(n3==n2 || n3==n1 || n2==n1){
+// let barobar = (num)=>{
+// let n1 = Math.round(num)%10;
+// let n2 = Math.round(num/10)%10;
+// let n3 = Math.round(num/100);
+// if(n3==n2 || n3==n1 || n2==n1){
+// return true;
+// }
+// else{
+//     return false;
+// }
+// }
+// console.log(barobar(213))
+
+ let barobar = (num)=>{
+ let n1 = Math.round(num)%10;
+ let n2 = Math.round(num/10)%10;
+ let num2 = `${n1}`+`${n2}`;
+ if(num>num2){
 return true;
-}
-else{
+ }
+ else{
     return false;
-}
-}
-console.log(barobar(213))
+ }
+ }
+ console.log(barobar(34))
