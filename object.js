@@ -61,17 +61,31 @@
 // console.log(ob({ name: false, age: 14 }));   
 // console.log(ob({ name: "john", age: 14 }));    
 
-let obj = (n,y)=>{
+// let obj = (n,y)=>{
+// let object = {
+//    name: n,
+//    year: y,
+//    age: 2026-y,
+//    start: y+7,
+//    end: y+18
+// }
+// return object;
+// }
+// console.log(obj("MS", 2005))
+
+let obj = (a,b,c,d) =>{
+let sum=0;
 let object = {
-   name: n,
-   year: y,
-   age: 2026-y,
-   start: y+7,
-   end: y+18
+   a1: a, b1:b, c1:c, d1:d,
 }
-return object;
+for(let key in object){
+if(typeof object[key]==="number"){
+sum+=object[key]
 }
-console.log(obj("MS", 2005))
+}
+return sum;
+}
+console.log(obj("sal",1,2,3))
 
 
 
