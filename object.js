@@ -26,12 +26,40 @@
 
 // console.log(Calc.sum())
 
-let box = {
-a: 1,
-b: 2,
-name: "Kavsar",
-age: 20
+// let box = {
+// a: 1,
+// b: 2,
+// name: "Kavsar",
+// age: 20
+// }
+// console.log([box.a,box.b])
+// console.log([box.name])
+// console.log([box.age])
+
+// function objKV(obj) {
+//   const result = {};
+  
+//   for (let key in obj) {
+//     result[obj[key]] = key;
+//   }
+  
+//   return result;
+// }
+
+// console.log(objKV({ a: 1, b: 2 }));
+
+
+function ob(obj) {
+  for (let key in obj) {
+    if (obj[key] === undefined) {
+      return true;
+    }
+  }
+  return false;
 }
-console.log([box.a,box.b])
-console.log([box.name])
-console.log([box.age])
+console.log(ob({ name: undefined, age: 11 })); 
+console.log(ob({ name: false, age: 14 }));   
+console.log(ob({ name: "john", age: 14 }));    
+
+
+
