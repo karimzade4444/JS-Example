@@ -127,23 +127,32 @@
 // }
 // console.log(key)
 
-function as(a, b) {
-  let banka = a + b;
-  let letters = 0;
-  let numbers = 0;
-  for (let i = 0; i < banka.length; i++) {
-    Number();
-    if (typeof banka[i] == "string" && !Number(banka[i])) {
-      letters++;
-    } if (Number(banka[i])) {
-      numbers++;
-    }
+// function as(a, b) {
+//   let banka = a + b;
+//   let letters = 0;
+//   let numbers = 0;
+//   for (let i = 0; i < banka.length; i++) {
+//     Number();
+//     if (typeof banka[i] == "string" && !Number(banka[i])) {
+//       letters++;
+//     } if (Number(banka[i])) {
+//       numbers++;
+//     }
+//   }
+
+//   return {
+//    letters: letters,
+//    numbers: numbers,
+//   };
+// }
+
+// console.log(as("alo", "sad4"));
+
+function MS(obj) {
+  let newBanka = {};
+  for (key in obj) {
+    newBanka[(obj[key])] = key;
   }
-
-  return {
-   letters: letters,
-   numbers: numbers,
-  };
+  return newBanka;
 }
-
-console.log(as("alo", "sad4"));
+console.log(MS({ a: 1, b: 2 }));
