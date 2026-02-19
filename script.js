@@ -112,15 +112,24 @@
 // }
 // console.log(barobar(213))
 
- let barobar = (num)=>{
- let n1 = Math.round(num)%10;
- let n2 = Math.round(num/10)%10;
- let num2 = `${n1}`+`${n2}`;
- if(num>num2){
-return true;
- }
- else{
-    return false;
- }
- }
- console.log(barobar(34))
+//  let barobar = (num)=>{
+//  let n1 = Math.round(num)%10;
+//  let n2 = Math.round(num/10)%10;
+//  let num2 = `${n1}`+`${n2}`;
+//  if(num>num2){
+// return true;
+//  }
+//  else{
+//     return false;
+//  }
+//  }
+//  console.log(barobar(34))
+
+let num = (n)=>{
+    let sum = 0;
+    for( let i = 0; i<=n;i++){
+    sum+=i;
+    }
+    return sum ;
+}
+console.log(num(4))
