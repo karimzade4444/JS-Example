@@ -87,18 +87,35 @@
 // }
 // console.log(obj("sal",1,2,3))
 
- let obj = (a,b,c,d) =>{
- let sum="";
- let object = {
-    a1: a, b1:b, c1:c, d1:d,
- }
- for(let key in object){
- if(typeof object[key]==="string"){
- sum+=object[key]
- }
- }
- return sum;
- }
- console.log(obj("sal",1,"dsjndsjk",3))
+//  let obj = (a,b,c,d) =>{
+//  let sum="";
+//  let object = {
+//     a1: a, b1:b, c1:c, d1:d,
+//  }
+//  for(let key in object){
+//  if(typeof object[key]==="string"){
+//  sum+=object[key]
+//  }
+//  }
+//  return sum;
+//  }
+//  console.log(obj("sal",1,"dsjndsjk",3))
+
+function generation(x, y) {
+  if (x == 0) return "me!";
+
+  const family = {
+    "-3": { m: "great grandfather", f: "great grandmother" },
+    "-2": { m: "grandfather", f: "grandmother" },
+    "-1": { m: "father", f: "mother" },
+     "1": { m: "son", f: "daughter" },
+     "2": { m: "grandson", f: "granddaughter" },
+     "3": { m: "great grandson", f: "great granddaughter" }
+  };
+
+  return family[x][y];
+}
+
+console.log(generation(2,"m"))
 
 
