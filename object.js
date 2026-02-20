@@ -218,19 +218,31 @@
 //   console.log(Count({
 //     a: "dsadsa", b: 123, }))
 
-function as(arr) {
-  let sum = "";
+// function as(arr) {
+//   let sum = "";
   
-  for (let key in arr) {
-    if (typeof arr[key] === "string") {
-      sum += arr[key];
+//   for (let key in arr) {
+//     if (typeof arr[key] === "string") {
+//       sum += arr[key];
+//     }
+//   }
+  
+//   return sum;
+// }
+
+// console.log(as({ a: "dsadsa", b: 123, c: "abc" }));
+
+
+function as(obj) {
+  let result = {};
+
+  for (let key in obj) {
+    if (typeof obj[key] === "string" && /\d/.test(obj[key])) {
+      result[key] = obj[key];
     }
   }
-  
-  return sum;
+
+  return result;
 }
 
-console.log(as({ a: "dsadsa", b: 123, c: "abc" }));
-
-// let a = {};
-// console.log(Array.isArray(a));
+console.log(as({ a: "dsadsa", b: "abc11", c: "abc" }));
