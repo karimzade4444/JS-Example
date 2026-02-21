@@ -233,17 +233,22 @@
 // console.log(as({ a: "dsadsa", b: 123, c: "abc" }));
 
 
-// function as(obj) {
-//   let result = {};
+//  function as(obj) {
+//    let result = {}
+//    for (key in obj) { 
+//     for(let i=0; i<obj[key].length;i++){
 
-//   for (let key in obj) {
+//      if(Number(obj[key][i])){
+//      return obj[key];
+//      }
+//     }
     
-//   }
+//    }
+//    }
+ 
+//  console.log(as({ a: "dsadsa", b: "abc", c: "abc2" }));
 
-//   return result;
-// }
 
-// console.log(as({ a: "dsadsa", b: "abc11", c: "abc" }));
 
 // function bud(obj){
 //     sum = 0;
