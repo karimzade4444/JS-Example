@@ -237,12 +237,26 @@
 //   let result = {};
 
 //   for (let key in obj) {
-//     if (typeof obj[key] === "string" && /\d/.test(obj[key])) {
-//       result[key] = obj[key];
-//     }
+    
 //   }
 
 //   return result;
 // }
 
 // console.log(as({ a: "dsadsa", b: "abc11", c: "abc" }));
+
+// function bud(obj){
+//     sum = 0;
+// let result = {};
+// for(let i=0; i<obj.length;i++){
+//     sum+=obj[i].budget;
+// }
+// return sum;
+// }
+
+// console.log(bud([
+// { name: "John", age: 21, budget: 29000 },
+// { name: "Steve", age: 32, budget: 32000 },
+// { name: "Martin", age: 16, budget: 1600 }
+// ]
+// ))
