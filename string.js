@@ -44,14 +44,20 @@ let bankasar = "yow Bankasar yow";
 
 // console.log(a.split(" "));
 
-let a = (str)=>{
-    let sum=1;
-    let b = str.split(",");
-    for(let i = 0; i<b.length;i++){
-    sum*=Number(b[i])
+// let a = (str)=>{
+//     let sum=1;
+//     let b = str.split(",");
+//     for(let i = 0; i<b.length;i++){
+//     sum*=Number(b[i])
 
         
-    }
-    return sum;
-}
-console.log(a("2,3"))
+//     }
+//     return sum;
+// }
+// console.log(a("2,3"))
+
+ let a = (str)=>{
+     
+     return str.split('-').length;
+ }
+ console.log(a("but-fet"))
