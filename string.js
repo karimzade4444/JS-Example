@@ -56,8 +56,15 @@ let bankasar = "yow Bankasar yow";
 // }
 // console.log(a("2,3"))
 
- let a = (str)=>{
+//  let a = (str)=>{
      
-     return str.split('-').length;
- }
- console.log(a("but-fet"))
+//      return str.split('-').length;
+//  }
+//  console.log(a("but-fet"))
+
+
+function name(p1){
+let a = p1.split(" ");
+return `${a[1]} ${a[0]}`
+}
+console.log(name("Muhammad MAkhsumov"))
