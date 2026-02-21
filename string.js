@@ -73,3 +73,26 @@ let bankasar = "yow Bankasar yow";
 //     return p1.includes(" ")
 // }
 // console.log(name("hello, word"))
+
+// let a = (name)=>(`Hello ${name}`)
+// console.log(a("Mustafo"))
+
+
+// function name (arr){
+// return arr.includes("=")
+
+// }
+// console.log(name("loop"))
+
+function p(name){
+    let a = name.split(" ")
+    if(a.indexOf("Nemo")){
+        return `I found Nemo at ${a.indexOf("Nemo")}`
+    }
+
+        return "I can’t find Nemo :("
+
+
+
+}
+console.log(p( "I am finding Nemo !"))
