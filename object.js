@@ -278,3 +278,17 @@
 // }
 
 // console.log(up(["p", "s"]))
+
+
+function After(p1,p2){
+let obj = {}
+for(let key in p1){
+  obj[key] = p1[key]+p2;
+}
+return obj;
+}
+console.log(After({ "Joel" : 32,
+"Fred" : 44,
+"Reginald" : 65,
+"Susan" : 33,
+"Julian" : 13}, 10))

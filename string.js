@@ -222,7 +222,7 @@ let bankasar = "yow Bankasar yow";
 // }
 // console.log(Upper("hello"))
 
-function ChangeSurname (name,family){
-    return family+" "+name;
-}
-console.log(ChangeSurname("Mustafo", "Karimzoda"))
+// function ChangeSurname (name,family){
+//     return family+" "+name;
+// }
+// console.log(ChangeSurname("Mustafo", "Karimzoda"))
