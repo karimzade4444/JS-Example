@@ -189,9 +189,18 @@ let bankasar = "yow Bankasar yow";
 // }
 // console.log(doRepeat( "Hello",5))
 
-function str(word){
-let first = word.slice(0,1)
-let last = word.slice(-1)
-return first+last;
+// function str(word){
+// let first = word.slice(0,1)
+// let last = word.slice(-1)
+// return first+last;
+// }
+// console.log(str("Mustaf"))
+
+function raq(argument) {
+  if (typeof argument === "number") {
+    return String(argument);
+  } else if (typeof argument === "string") {
+    return Number(argument);
+  }
 }
-console.log(str("Mustaf"))
+console.log(raq(12345))
