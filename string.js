@@ -175,9 +175,16 @@ let bankasar = "yow Bankasar yow";
 // }
 // console.log(BigSmall("moveMEnT"));
 
-function raq(raqam){
-let n = raqam.toString();
-let chapana = n.split("").reverse().join("");
-return chapana+n;
+// function raq(raqam){
+// let n = raqam.toString();
+// let chapana = n.split("").reverse().join("");
+// return chapana+n;
+// }
+// console.log(raq(123456789))
+
+function doRepeat(word,number){
+ let first = word.slice(0,-1);
+ let last = word.slice(-1).repeat(number);
+ return first+last;
 }
-console.log(raq(123456789))
+console.log(doRepeat( "Hello",5))
