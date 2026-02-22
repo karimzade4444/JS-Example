@@ -196,11 +196,21 @@ let bankasar = "yow Bankasar yow";
 // }
 // console.log(str("Mustaf"))
 
-function raq(argument) {
-  if (typeof argument === "number") {
-    return String(argument);
-  } else if (typeof argument === "string") {
-    return Number(argument);
-  }
+// function raq(argument) {
+//   if (typeof argument === "number") {
+//     return String(argument);
+//   } else if (typeof argument === "string") {
+//     return Number(argument);
+//   }
+// }
+// console.log(raq(12345))
+
+
+function HaveS(word){
+let have = word.slice(-1);
+if(have=="s"){
+return true;
 }
-console.log(raq(12345))
+return false;
+}
+console.log(HaveS("Doe"))
