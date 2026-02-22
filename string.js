@@ -161,16 +161,23 @@ let bankasar = "yow Bankasar yow";
 // }
 // console.log(HowMuch("b", "big fat bubble"));
 
-function BigSmall(word) {
-  let big = "";
-  let small = "";
-  for (let i = 0; i < word.length; i++) {
-    if (word[i] === word[i].toUpperCase()) {
-      big += word[i];
-    } else {
-      small += word[i];
-    }
-  }
-  return big + small;
+// function BigSmall(word) {
+//   let big = "";
+//   let small = "";
+//   for (let i = 0; i < word.length; i++) {
+//     if (word[i] === word[i].toUpperCase()) {
+//       big += word[i];
+//     } else {
+//       small += word[i];
+//     }
+//   }
+//   return big + small;
+// }
+// console.log(BigSmall("moveMEnT"));
+
+function raq(raqam){
+let n = raqam.toString();
+let chapana = n.split("").reverse().join("");
+return chapana+n;
 }
-console.log(BigSmall("moveMEnT"));
+console.log(raq(123456789))
