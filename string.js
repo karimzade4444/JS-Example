@@ -149,3 +149,14 @@ let bankasar = "yow Bankasar yow";
 // }
 
 // console.log(any("mom"));
+
+function HowMuch(word1, word2) {
+  let choch = 0;
+  for (let i = 0; i < word2.length; i++) {
+    if (word2[i].includes(word1)) {
+      choch++;
+    }
+  }
+  return choch++;
+}
+console.log(HowMuch("b", "big fat bubble"));
