@@ -150,13 +150,27 @@ let bankasar = "yow Bankasar yow";
 
 // console.log(any("mom"));
 
-function HowMuch(word1, word2) {
-  let choch = 0;
-  for (let i = 0; i < word2.length; i++) {
-    if (word2[i].includes(word1)) {
-      choch++;
+// function HowMuch(word1, word2) {
+//   let choch = 0;
+//   for (let i = 0; i < word2.length; i++) {
+//     if (word2[i].includes(word1)) {
+//       choch++;
+//     }
+//   }
+//   return choch++;
+// }
+// console.log(HowMuch("b", "big fat bubble"));
+
+function BigSmall(word) {
+  let big = "";
+  let small = "";
+  for (let i = 0; i < word.length; i++) {
+    if (word[i] === word[i].toUpperCase()) {
+      big += word[i];
+    } else {
+      small += word[i];
     }
   }
-  return choch++;
+  return big + small;
 }
-console.log(HowMuch("b", "big fat bubble"));
+console.log(BigSmall("moveMEnT"));
