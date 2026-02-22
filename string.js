@@ -216,8 +216,13 @@ let bankasar = "yow Bankasar yow";
 // console.log(HaveS("Doe"))
 
 
-function Upper(word){
-let reverse = word.split("").reverse().join("").toUpperCase();
-return reverse;
+// function Upper(word){
+// let reverse = word.split("").reverse().join("").toUpperCase();
+// return reverse;
+// }
+// console.log(Upper("hello"))
+
+function ChangeSurname (name,family){
+    return family+" "+name;
 }
-console.log(Upper("hello"))
+console.log(ChangeSurname("Mustafo", "Karimzoda"))
