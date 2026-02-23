@@ -220,35 +220,32 @@
 
 // function as(arr) {
 //   let sum = "";
-  
+
 //   for (let key in arr) {
 //     if (typeof arr[key] === "string") {
 //       sum += arr[key];
 //     }
 //   }
-  
+
 //   return sum;
 // }
 
 // console.log(as({ a: "dsadsa", b: 123, c: "abc" }));
 
-
 //  function as(obj) {
 //    let result = {}
-//    for (key in obj) { 
+//    for (key in obj) {
 //     for(let i=0; i<obj[key].length;i++){
 
 //      if(Number(obj[key][i])){
 //      return obj[key];
 //      }
 //     }
-    
+
 //    }
 //    }
- 
+
 //  console.log(as({ a: "dsadsa", b: "abc", c: "abc2" }));
-
-
 
 // function bud(obj){
 //     sum = 0;
@@ -266,7 +263,6 @@
 // ]
 // ))
 
-
 // function up(arr){
 // let res = {}
 // for(let i = 0; i<arr.length; i++){
@@ -274,11 +270,9 @@
 // }
 // return res
 
-
 // }
 
 // console.log(up(["p", "s"]))
-
 
 // function After(p1,p2){
 // let obj = {}
@@ -293,7 +287,6 @@
 // "Susan" : 33,
 // "Julian" : 13}, 10))
 
-
 // Object.keys(user)      // массив ключей
 // Object.values(user)    // массив значений
 // Object.entries(user)   // массив [ключ, значение]
@@ -303,20 +296,29 @@
 // }
 // console.log(lett({a: 1, b: 2}));
 
+// function cost(obj){
+//   let sum=0;
+// let object = {}
+// for(let key in obj){
+//   sum+=obj[key];
+// if(sum>50.00){
+// return true;
+// }
+// }
+// return false;
+// }
+// console.log(cost({"Shampoo": 5.99, "Rubber Ducks": 35.99}))
 
-
-
-
-
-function cost(obj){
-  let sum=0;
-let object = {}
-for(let key in obj){
-  sum+=obj[key];
-if(sum>50.00){
-return true;
+function cost(obj) {
+  let narkh = 0;
+  let nom = "";
+  for (let key in obj) {
+    if (obj[key] > narkh) {
+      narkh = obj[key];
+      nom = key;
+    }
+  }
+  return nom;
 }
-}
-return false;
-}
-console.log(cost({"Shampoo": 5.99, "Rubber Ducks": 35.99}))
+
+console.log(cost({ tv: 30, skate: 20 }));
