@@ -210,13 +210,10 @@ let bankasar = "yow Bankasar yow";
 // }
 // console.log(HaveS("Doe"))
 
-
-
 // function ChangeSurname (name,family){
 //     return family+" "+name;
 // }
 // console.log(ChangeSurname("Mustafo", "Karimzoda"))
-
 
 // function Upper(word){
 // let reverse = word.split("").reverse().join("").toUpperCase();
@@ -232,3 +229,82 @@ let bankasar = "yow Bankasar yow";
 // return st.toUpperCase();
 // }
 // console.log(Upper("hello"))
+
+//dobavit
+// arr.push(); // ayoxir
+// arr.unshift(); //ayaval
+
+// arr.shift(); // aval
+// arr.pop()
+
+// let a1 = [0];
+// let a2 = [0];
+
+// let obj1 ={
+//     name:"Muhammad"
+// }
+// let obj2 ={
+//     name:"Muhammad"
+// }
+
+// console.log(obj1 == obj2);
+
+// let style = ["jaz","bluz"];
+// console.log(style)
+// style.push("roknrol")
+// console.log(style)
+// style[Math.round((style.length-1)/2)]="klasika";
+// console.log(style)
+// style.shift();
+// console.log(style);
+// style.unshift("rep","regy")
+// console.log(style)
+
+// let arr = ["Jas", "Rok"];
+
+// arr.forEach((el, i) => {
+//   console.log(`У ${el} индекс ${i}`);
+// });
+
+// console.log(arr.includes("Jas"));
+
+// let a = 5;
+// let b = "5";
+
+// console.log(a === b);
+
+let users = [
+  { id: 1, name: "Вася2211", age: 12 },
+  { id: 2, name: "Петяbanakasser", age: 14 },
+  { id: 3, name: "Маша", age: 5 },
+];
+
+// let nameInput = "Вася";
+
+// console.log(users.find((el) => el.name == nameInput));
+
+// let a = users.filter((el) => {
+//   return el.age > 10;
+// });
+// console.log(a);
+
+// let newUsers = users.map((el) => {
+//   return { name: el.name, id: el.id };
+// });
+// console.log(newUsers);
+
+// const a = users.sort((a, b) => {
+//   return a.name.length > b.name.length ? false : true;
+// });
+
+// console.log(a);
+
+// const result = users.reduce((acc, el) => {
+//   acc.age += el.age;
+//   return acc;
+// });
+
+// console.log(result);
+
+
+
