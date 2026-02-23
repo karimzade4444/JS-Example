@@ -318,13 +318,10 @@ let users = [
 
 // console.log(sar([1, 2, 3, 4, 5]));
 
-
 // const sar = (...b) => {
 //    return b.flatMap((x)=>(x));
 //  }
 //  console.log(sar([15, 4], [2, 3],[5,7]));
-
-
 
 // const sar = (arr,p) => {
 // return arr.indexOf(p);
@@ -332,5 +329,7 @@ let users = [
 
 // console.log(sar([3,4,5,3,1,5,5,5,7,6], 3))
 
-
-
+// const sar = (arr) => {
+//   return arr.filter((el, i) => arr.indexOf(el) == i);
+// };
+// console.log(sar([1, 3, 3, 3, 4, 4]));
