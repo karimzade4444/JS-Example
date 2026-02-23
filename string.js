@@ -98,19 +98,15 @@ let bankasar = "yow Bankasar yow";
 
 // function str(words) {
 //   let a = words.split(" ");
-//   let st = " ";
-//   let str1 = a;
-//   let st1=" ";
-//   let st2 = " ";
-//   for (let i = a.length - 1; i > -1; i--) {
-//     st1+=st2;
+//   let st2 = "";
+//   for (let i = 0 ; i < a.length; i++) {
 //     for (let j = a[i].length - 1; j >= 0; j--) {
-//     st2
-//       console.log(a[i][j]);
+//       st2 += a[i][j];
 //     }
+//     st2 += " ";
 //   }
 
-//   return st;
+//   return st2;
 // }
 // console.log(str("This is a lacipyt sentence."));
 
@@ -205,7 +201,6 @@ let bankasar = "yow Bankasar yow";
 // }
 // console.log(raq(12345))
 
-
 // function HaveS(word){
 // let have = word.slice(-1);
 // if(have=="s"){
@@ -216,13 +211,21 @@ let bankasar = "yow Bankasar yow";
 // console.log(HaveS("Doe"))
 
 
+
+// function ChangeSurname (name,family){
+//     return family+" "+name;
+// }
+// console.log(ChangeSurname("Mustafo", "Karimzoda"))
+
+
 // function Upper(word){
 // let reverse = word.split("").reverse().join("").toUpperCase();
 // return reverse;
 // }
 // console.log(Upper("hello"))
 
-// function ChangeSurname (name,family){
-//     return family+" "+name;
-// }
-// console.log(ChangeSurname("Mustafo", "Karimzoda"))
+function Upper(word){
+let reverse = word.split("").reverse().join("").toUpperCase();
+return reverse;
+}
+console.log(Upper("hello"))

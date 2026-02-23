@@ -324,13 +324,13 @@
 // console.log(cost({ tv: 30, skate: 20 }));
 
 
-function obmen(obj){
-  let object = {}
-let a = "";
-for(let key in obj){
-object[obj[key]]=key;
-}
-return object;
+// function obmen(obj){
+//   let object = {}
+// let a = "";
+// for(let key in obj){
+// object[obj[key]]=key;
+// }
+// return object;
 
-}
-console.log(obmen({"z": "q","w": "f"}))
+// }
+// console.log(obmen({"z": "q","w": "f"}))
