@@ -306,5 +306,22 @@ let users = [
 
 // console.log(result);
 
+// const sar = (...b) => {
+//   return a.concat(...b);
+// };
+
+// console.log(sar([1, 2, 3], [1, 2, 3, 34], [123123, 312321]));
+
+// const sar = (a) => {
+//   return [0, ...a, 0];
+// };
+
+// console.log(sar([1, 2, 3, 4, 5]));
+
+
+// const sar = (...b) => {
+//    return b.flatMap((x)=>(x));
+//  }
+//  console.log(sar([15, 4], [2, 3],[5,7]));
 
 
