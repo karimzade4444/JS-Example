@@ -325,3 +325,12 @@ let users = [
 //  console.log(sar([15, 4], [2, 3],[5,7]));
 
 
+
+// const sar = (arr,p) => {
+// return arr.indexOf(p);
+// }
+
+// console.log(sar([3,4,5,3,1,5,5,5,7,6], 3))
+
+
+
