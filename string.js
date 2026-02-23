@@ -333,3 +333,8 @@ let users = [
 //   return arr.filter((el, i) => arr.indexOf(el) == i);
 // };
 // console.log(sar([1, 3, 3, 3, 4, 4]));
+
+// const sar = (arr) => {
+//   return arr.filter((el, i) => (el>0));
+// };
+// console.log(sar([-1, 2, -3, 4, -5]));
