@@ -280,15 +280,25 @@
 // console.log(up(["p", "s"]))
 
 
-function After(p1,p2){
-let obj = {}
-for(let key in p1){
-  obj[key] = p1[key]+p2;
+// function After(p1,p2){
+// let obj = {}
+// for(let key in p1){
+//   obj[key] = p1[key]+p2;
+// }
+// return obj;
+// }
+// console.log(After({ "Joel" : 32,
+// "Fred" : 44,
+// "Reginald" : 65,
+// "Susan" : 33,
+// "Julian" : 13}, 10))
+
+
+// Object.keys(user)      // массив ключей
+// Object.values(user)    // массив значений
+// Object.entries(user)   // массив [ключ, значение]
+
+function lett(obj) {
+  return Object.entries(obj);
 }
-return obj;
-}
-console.log(After({ "Joel" : 32,
-"Fred" : 44,
-"Reginald" : 65,
-"Susan" : 33,
-"Julian" : 13}, 10))
+console.log(lett({a: 1, b: 2}));
