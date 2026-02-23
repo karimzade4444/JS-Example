@@ -309,16 +309,28 @@
 // }
 // console.log(cost({"Shampoo": 5.99, "Rubber Ducks": 35.99}))
 
-function cost(obj) {
-  let narkh = 0;
-  let nom = "";
-  for (let key in obj) {
-    if (obj[key] > narkh) {
-      narkh = obj[key];
-      nom = key;
-    }
-  }
-  return nom;
-}
+// function cost(obj) {
+//   let narkh = 0;
+//   let nom = "";
+//   for (let key in obj) {
+//     if (obj[key] > narkh) {
+//       narkh = obj[key];
+//       nom = key;
+//     }
+//   }
+//   return nom;
+// }
 
-console.log(cost({ tv: 30, skate: 20 }));
+// console.log(cost({ tv: 30, skate: 20 }));
+
+
+function obmen(obj){
+  let object = {}
+let a = "";
+for(let key in obj){
+object[obj[key]]=key;
+}
+return object;
+
+}
+console.log(obmen({"z": "q","w": "f"}))
