@@ -338,3 +338,15 @@ let users = [
 //   return arr.filter((el, i) => (el>0));
 // };
 // console.log(sar([-1, 2, -3, 4, -5]));
+
+// const sar = (arr) => {
+//   let choch = 0;
+//   let sum = arr.reduce((ac, el) => {
+//     choch++;
+//     ac += el;
+//     return ac;
+//   }, 0);
+//   return sum / choch;
+// };
+
+// console.log(sar([2, 4, 6, 8, 10]));
