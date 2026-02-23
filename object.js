@@ -298,7 +298,25 @@
 // Object.values(user)    // массив значений
 // Object.entries(user)   // массив [ключ, значение]
 
-function lett(obj) {
-  return Object.entries(obj);
+// function lett(obj) {
+//   return Object.entries(obj);
+// }
+// console.log(lett({a: 1, b: 2}));
+
+
+
+
+
+
+function cost(obj){
+  let sum=0;
+let object = {}
+for(let key in obj){
+  sum+=obj[key];
+if(sum>50.00){
+return true;
 }
-console.log(lett({a: 1, b: 2}));
+}
+return false;
+}
+console.log(cost({"Shampoo": 5.99, "Rubber Ducks": 35.99}))
