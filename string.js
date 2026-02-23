@@ -224,8 +224,11 @@ let bankasar = "yow Bankasar yow";
 // }
 // console.log(Upper("hello"))
 
-function Upper(word){
-let reverse = word.split("").reverse().join("").toUpperCase();
-return reverse;
-}
-console.log(Upper("hello"))
+// function Upper(word){
+// let st = "";
+// for(let i = word.length-1;i>=0;i--){
+// st+=word[i];
+// }
+// return st.toUpperCase();
+// }
+// console.log(Upper("hello"))
