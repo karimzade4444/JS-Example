@@ -273,11 +273,11 @@ let bankasar = "yow Bankasar yow";
 
 // console.log(a === b);
 
-let users = [
-  { id: 1, name: "Вася2211", age: 12 },
-  { id: 2, name: "Петяbanakasser", age: 14 },
-  { id: 3, name: "Маша", age: 5 },
-];
+// let users = [
+//   { id: 1, name: "Вася2211", age: 12 },
+//   { id: 2, name: "Петяbanakasser", age: 14 },
+//   { id: 3, name: "Маша", age: 5 },
+// ];
 
 // let nameInput = "Вася";
 
@@ -370,3 +370,22 @@ let users = [
 // }, {});
 
 // console.log(banka);
+
+// const orders = [
+//   { id: 1, user: "Anna", amount: 120 },
+//   { id: 2, user: "Ivan", amount: 80 },
+//   { id: 3, user: "Anna", amount: 150 },
+//   { id: 4, user: "Ivan", amount: 200 },
+//   { id: 5, user: "Maria", amount: 50 },
+// ];
+
+// let set = orders.reduce((acc, el) => {
+//   if (acc[el.user]) {
+//     acc[el.user] = acc[el.user]+ el.amount;
+//   } else {
+//     acc[el.user] = el.amount;
+//   }
+//   return acc;
+// }, {});
+
+// console.log(set);
