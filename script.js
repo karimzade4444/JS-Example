@@ -170,7 +170,6 @@
 // "null"
 // , []]))
 
-
 // function set (arr){
 // let big = arr.map((el)=>{
 //     return el.length
@@ -193,3 +192,8 @@
 // }
 // }
 // console.log(set([4, 8]))
+
+// function set(arr) {
+//   return arr.map((el) => el * -1);
+// }
+// console.log(set([1, 2, 3, 4, 5]));
