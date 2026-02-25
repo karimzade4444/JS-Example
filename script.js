@@ -169,3 +169,27 @@
 // console.log(set([1, 2,
 // "null"
 // , []]))
+
+
+// function set (arr){
+// let big = arr.map((el)=>{
+//     return el.length
+// })
+// return big;
+// }
+// console.log(set(["hello"
+// ,
+// "world"]))
+
+// function set (arr){
+// let a = Math.sqrt(arr[0])
+// let b = Math.pow(arr[1],1/3)
+
+// if(a==b){
+// return true;
+// }
+// else{
+// return false;
+// }
+// }
+// console.log(set([4, 8]))
