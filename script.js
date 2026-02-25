@@ -3,7 +3,7 @@
 
 // let cAge = (c1,c2)=>(c2-c1)
 // console.log(cAge(2000,2025))
- 
+
 // let grad = (f1)=>((f1 * 9/5) + 32 )
 // console.log(grad(0))
 
@@ -142,3 +142,11 @@
 //      return sum ;
 //  }
 //  console.log(num(5))
+
+// let set = (num1, num2, arr) => {
+//   let big = arr.filter((item) => {
+//     return item > num1 && item < num2;
+//   });
+//   return big;
+// };
+// console.log(set(3, 8, [1, 5, 95, 0, 4, 7]));
