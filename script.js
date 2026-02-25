@@ -159,3 +159,13 @@
 // return big;
 // }
 // console.log(set([1, 2, 3, 4, 5]))
+
+// function set (arr){
+//     let big = arr.map((el)=>{
+//     return typeof(el);
+//     })
+//     return big;
+// }
+// console.log(set([1, 2,
+// "null"
+// , []]))
