@@ -360,4 +360,13 @@ let users = [
 //   return true;
 // }
 
-// console.log(set([1, 2, 3, 2, 1])); 
+// console.log(set([1, 2, 3, 2, 1]));
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let banka = arr.reduce((acc, el) => {
+//   acc[el] = el * 2;
+//   return acc;
+// }, {});
+
+// console.log(banka);
