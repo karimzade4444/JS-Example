@@ -150,3 +150,12 @@
 //   return big;
 // };
 // console.log(set(3, 8, [1, 5, 95, 0, 4, 7]));
+
+// function set(arr){
+// let big = arr.reduce((acc,el)=>{
+//     acc+=el;
+//     return acc;
+// },0)
+// return big;
+// }
+// console.log(set([1, 2, 3, 4, 5]))
