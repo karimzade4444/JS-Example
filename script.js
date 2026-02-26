@@ -364,7 +364,6 @@ let range = {
 // keys.push("a");
 // console.log(keys);
 
-
 // const text = "apple banana apple orange banana apple";
 // let arr = text.split(" ")
 // let unic = new Set(arr)
@@ -374,3 +373,16 @@ let range = {
 // console.log(keys)
 // console.log(unic.size)
 
+// const fruits = ["apple", "banana", "apple", "orange", "banana", "apple"];
+// let map = new Map();
+
+// fruits.forEach((el, i) => {
+
+//   if (map.has(el)) {
+   
+//     map.set(el, map.get(el) + 1);
+//   } else {
+//     map.set(el, 1);
+//   }
+// });
+// console.log(map)
