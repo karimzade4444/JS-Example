@@ -1,6 +1,5 @@
 // let fullName = (n1,n2)=> (`${n1} ${n2}`)
 // console.log(fullName("Ali","Bedak"))
-
 // let cAge = (c1,c2)=>(c2-c1)
 // console.log(cAge(2000,2025))
 
@@ -379,10 +378,30 @@ let range = {
 // fruits.forEach((el, i) => {
 
 //   if (map.has(el)) {
-   
+
 //     map.set(el, map.get(el) + 1);
 //   } else {
 //     map.set(el, 1);
 //   }
 // });
 // console.log(map)
+
+// const users = [
+//   { id: 1, name: "Ali" },
+//   { id: 2, name: "Vali" },
+//   { id: 1, name: "Ali" },
+//   { id: 3, name: "Hasan" },
+// ];
+// let map = new Map();
+
+// users.forEach((el) => {
+//   map.set(el.id, el);
+// });
+
+// console.log(map);
+
+// let obj = {
+//   name: "muhammad",
+// };
+
+// obj.name = "Muhammad";
