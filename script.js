@@ -215,3 +215,9 @@
 // return big;
 // }
 // console.log(set([1, 2, 3, "a", "b", 4]))
+
+// function set (arr){
+// let mid = arr.slice(1,-1)
+// return mid;
+// }
+// console.log(set([ 10,20,30]))
