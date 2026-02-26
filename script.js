@@ -248,4 +248,10 @@
 // }
 // console.log(set([1,2,3]))
 
+// function set(arr){
+// let [a,b,c]=arr;
+// return a*b*c;
+// }
+// console.log(set([2, 3, 4]))
+
 
