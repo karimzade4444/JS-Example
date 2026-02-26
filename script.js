@@ -363,3 +363,14 @@ let range = {
 
 // keys.push("a");
 // console.log(keys);
+
+
+// const text = "apple banana apple orange banana apple";
+// let arr = text.split(" ")
+// let unic = new Set(arr)
+// console.log(unic)
+
+// let keys = Array.from(unic);
+// console.log(keys)
+// console.log(unic.size)
+
