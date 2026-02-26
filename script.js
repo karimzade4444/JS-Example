@@ -267,4 +267,10 @@
 // }
 // console.log(set([10, 20, 30, 40, 50]))
 
+// function set (arr){
+// let [...sp]=arr;
+// return arr.concat(sp)
+// }
+// console.log(set(["x", "y"]))
+
 
