@@ -221,3 +221,9 @@
 // return mid;
 // }
 // console.log(set([ 10,20,30]))
+
+// function set (arr){
+// let [a,b, ...rest]=arr;
+// return rest;
+// }
+// console.log(set([1, 2, 3, 4, 5]))
