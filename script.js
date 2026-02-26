@@ -209,3 +209,9 @@
 // return big;
 // }
 // console.log(set([1,2,3,4]))
+
+// function set (arr){
+// let big = arr.filter((num)=>Number(num));
+// return big;
+// }
+// console.log(set([1, 2, 3, "a", "b", 4]))
