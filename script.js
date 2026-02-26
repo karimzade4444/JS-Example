@@ -241,5 +241,11 @@
 // }
 // console.log(set(5, 5, 5, 5))
 
+// function set (arr){
+// let [a, ...davom]=arr;
+// return [...davom,a]
+
+// }
+// console.log(set([1,2,3]))
 
 
