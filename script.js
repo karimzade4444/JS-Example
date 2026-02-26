@@ -235,4 +235,11 @@
 // console.log(set(["a"], ["b"], ["c"]))
 
 
+// function set (...num){
+// let sum = num.reduce((ac,el)=>(ac+el),0)
+// return sum;
+// }
+// console.log(set(5, 5, 5, 5))
+
+
 
