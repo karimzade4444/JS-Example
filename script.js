@@ -203,7 +203,6 @@
 // }
 // console.log(set([1, 2, 3, 4, 5]));
 
-
 // function set (arr){
 // let big = arr.filter((num)=>num>5).reduce((acc , el)=>(acc+el),0)
 // return big;
@@ -226,6 +225,12 @@
 // let [a,b, ...rest]=arr;
 // return rest;
 // }
+
+// function set (arr){
+// arr.splice(0,2);
+//     return arr;
+// }
+
 // console.log(set([1, 2, 3, 4, 5]))
 
 // function set (arr1,arr2,arr3){
@@ -233,7 +238,6 @@
 // return arr;
 // }
 // console.log(set(["a"], ["b"], ["c"]))
-
 
 // function set (...num){
 // let sum = num.reduce((ac,el)=>(ac+el),0)
@@ -254,13 +258,11 @@
 // }
 // console.log(set([2, 3, 4]))
 
-
 // function set(arr){
 // let rev =  arr.splice(0,3);
 // return rev.reverse()
 // }
 // console.log(set([1, 2, 3, 4, 5]))
-
 
 // function set(arr){
 // return arr.filter((num,ind)=>ind%2!=0)
@@ -273,4 +275,91 @@
 // }
 // console.log(set(["x", "y"]))
 
+// const useCalculator = () => {
+//   return {
+//     plus: (a, b) => a + b,
+//     minus: (a, b) => a - b,
+//     zarb: (a, b) => a * b,
+//     taksim: (a, b) => a / b,
+//   };
+// };
 
+// const { plus, zarb, minus, taksim } = useCalculator();
+
+// console.log(plus(1, 2));
+
+// console.log(zarb(2, 4));
+
+// function banka(...a) {
+
+// }
+
+// banka(1, 2, 3, 4, 5, 6);
+
+// let a = [1, 2, 3, 4, 5];
+// let obj = { name: "alo" };
+// console.log({...obj});
+// console.log({    a });
+
+// let a = {
+//   name: "Muhammad",
+// };
+
+// let b = { ...a };
+// b.name = "AKbar";
+
+// console.log(a);
+
+let range = {
+  from: 1,
+  to: 5,
+};
+
+// Мы хотим, чтобы работал for..of:
+// for(let num of range) ... num=1,2,3,4,5
+
+// const b = new Set([
+//   { name: "tufli", rang: "siyah" },
+//   { name: "tufli", rang: "safed" },
+//   { name: "tufli", rang: "siyah" },
+// ]);
+
+// b.add("popshi");
+
+// console.log(b);
+
+// b.has("pophashi");
+
+// console.log(b);
+
+// console.log([...b]);
+
+// const obj = new Map();
+
+// obj.set(true, "Mustafo");
+// console.log(obj.get(true));
+
+// const user = {
+//   name: "Mustafo",
+//   age: 12,
+// };
+
+// const chnadBorDromad = new Map(Object.entries(user));
+// console.log(chnadBorDromad.size);
+
+// // chnadBorDromad.set(user, 123);
+
+// // chnadBorDromad.forEach((el, i) => {
+// //   console.log(i);
+// // });
+
+// console.log(Object.entries(user));
+
+// let map = new Map();
+
+// map.set("name", "John");
+
+// let keys = [...map.keys()];
+
+// keys.push("a");
+// console.log(keys);
