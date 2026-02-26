@@ -202,3 +202,10 @@
 //   return arr.map((el) => el * 2);
 // }
 // console.log(set([1, 2, 3, 4, 5]));
+
+
+// function set (arr){
+// let big = arr.filter((num)=>num>5).reduce((acc , el)=>(acc+el),0)
+// return big;
+// }
+// console.log(set([1,2,3,4]))
