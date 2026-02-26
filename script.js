@@ -227,3 +227,12 @@
 // return rest;
 // }
 // console.log(set([1, 2, 3, 4, 5]))
+
+// function set (arr1,arr2,arr3){
+// let arr = [...arr1,...arr2,...arr3]
+// return arr;
+// }
+// console.log(set(["a"], ["b"], ["c"]))
+
+
+
