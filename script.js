@@ -255,3 +255,10 @@
 // console.log(set([2, 3, 4]))
 
 
+// function set(arr){
+// let rev =  arr.splice(0,3);
+// return rev.reverse()
+// }
+// console.log(set([1, 2, 3, 4, 5]))
+
+
