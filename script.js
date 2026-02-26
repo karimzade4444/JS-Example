@@ -262,3 +262,9 @@
 // console.log(set([1, 2, 3, 4, 5]))
 
 
+// function set(arr){
+// return arr.filter((num,ind)=>ind%2!=0)
+// }
+// console.log(set([10, 20, 30, 40, 50]))
+
+
