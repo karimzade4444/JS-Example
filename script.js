@@ -430,3 +430,12 @@ let range = {
 // let a = Array.from(map);
 // let govno = a.find((el) => el[1] == 1);
 // console.log(govno[0]);
+
+
+
+// function set (arr,a,b){
+// arr.unshift(a,b);
+// return arr;
+
+// }
+// console.log(set([3],1,2))
