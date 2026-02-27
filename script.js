@@ -473,3 +473,10 @@ let range = {
 
 // }
 // console.log(set([1,2,3],4))
+
+// function set(arr1,arr2,a){
+//  let arr = arr1.concat(arr2)
+//  arr.splice([a],1)
+// return arr
+// }
+// console.log(set([1,2],[3,4],1))
