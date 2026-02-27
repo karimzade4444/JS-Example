@@ -480,3 +480,11 @@ let range = {
 // return arr
 // }
 // console.log(set([1,2],[3,4],1))
+
+// function set(arr){
+// arr.splice(0,1)
+// arr.splice(-1,1)
+// let str = arr.join("")
+// return str
+// }
+// console.log(set([1,2,4]))
