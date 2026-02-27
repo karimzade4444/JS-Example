@@ -439,3 +439,10 @@ let range = {
 
 // }
 // console.log(set([3],1,2))
+
+
+// function set (arr){
+// arr.splice(-2)
+// return arr
+// }
+// console.log(set([1,2,3,4]))
