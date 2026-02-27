@@ -457,3 +457,11 @@ let range = {
 // return arr.join("-")
 // }
 // console.log(set([1,2,3]))
+
+// function set (arr,a){
+// arr.unshift(a)
+// arr.pop()
+// return arr
+
+// }
+// console.log(set([2,3],1))
