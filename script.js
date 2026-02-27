@@ -406,13 +406,27 @@ let range = {
 
 // obj.name = "Muhammad";
 
-const arr1 = [1, 2, 3, 4, 5];
-// const arr2 = [3, 4, 5, 6, 7];
-// const set2 = new Set(arr2)
-// let arr = []
-// arr1.forEach((val)=>{
-// if (set2.has(val)){
-// arr.push(val)
+// const arr1 = [1, 2, 3, 4, 5];
+// // const arr2 = [3, 4, 5, 6, 7];
+// // const set2 = new Set(arr2)
+// // let arr = []
+// // arr1.forEach((val)=>{
+// // if (set2.has(val)){
+// // arr.push(val)
+// // }
+// // })
+// // console.log(arr)
+
+// const str = "aabbccddefg";
+// let map = new Map();
+// for (let kalima of str) {
+//   if (map.has(kalima)) {
+//     map.set(kalima, map.get(kalima) + 1);
+//   } else {
+//     map.set(kalima, 1);
+//   }
 // }
-// })
-// console.log(arr)
+
+// let a = Array.from(map);
+// let govno = a.find((el) => el[1] == 1);
+// console.log(govno[0]);
