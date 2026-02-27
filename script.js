@@ -465,3 +465,11 @@ let range = {
 
 // }
 // console.log(set([2,3],1))
+
+// function set (arr,a){
+// arr.shift()
+// arr.push(a)
+// return arr
+
+// }
+// console.log(set([1,2,3],4))
