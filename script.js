@@ -513,3 +513,8 @@ let range = {
 // return arr.filter((el)=>el>0)
 // }
 // console.log(set([1, -2, 3]))
+
+// function set(arr){
+// return arr.find((el) => el > 10)
+// }
+// console.log(set([1,20, 30]))
