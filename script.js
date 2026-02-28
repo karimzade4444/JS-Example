@@ -554,3 +554,11 @@ let range = {
 // }
 
 // console.log(set([1, 4]))
+
+
+// function set(arr){
+// let result = arr.reduce((ac,el)=>(ac+el
+// ),0)
+// return result
+// }
+// console.log(set([1, 4]))
