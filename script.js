@@ -488,3 +488,10 @@ let range = {
 // return str
 // }
 // console.log(set([1,2,4]))
+
+// function set(arr,num){
+//   arr.pop()
+//   arr.unshift(num)
+//   return arr;
+// }
+// console.log(set([2, 3, 4], 1))
