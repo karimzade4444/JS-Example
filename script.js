@@ -501,3 +501,9 @@ let range = {
 //  return NewArr;
 // }
 // console.log(set([1, 2, 3], 1))
+
+
+// function set(arr){
+// return arr.map((el)=>el*2)
+// }
+// console.log(set([1, 2, 3]))
