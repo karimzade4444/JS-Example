@@ -531,3 +531,15 @@ let range = {
 
 // }
 // console.log(set([1, 1, 2]))
+
+// function set(arr){
+// let sum = 0;
+// let choch = 0;
+// arr.map((el)=>{
+//   sum+=el;
+//   choch++;
+// })
+// let av = sum/choch;
+// return arr.filter((elem)=>elem>av)
+// }
+// console.log(set([2, 8]))
