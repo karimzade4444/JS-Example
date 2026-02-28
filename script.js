@@ -568,3 +568,10 @@ let range = {
 // return result
 // }
 // console.log(set([1, 4]))
+
+
+// function set(arr,num){
+// arr.push(num)
+// return arr
+// }
+// console.log(set([1, 2],3))
