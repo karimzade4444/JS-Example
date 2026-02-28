@@ -507,3 +507,9 @@ let range = {
 // return arr.map((el)=>el*2)
 // }
 // console.log(set([1, 2, 3]))
+
+
+// function set(arr){
+// return arr.filter((el)=>el>0)
+// }
+// console.log(set([1, -2, 3]))
