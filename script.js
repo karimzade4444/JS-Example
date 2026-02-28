@@ -581,3 +581,9 @@ let range = {
 // return arr.toString()
 // }
 // console.log(set([1, 2,3]))
+
+// function set(arr,num){
+// let find = arr.includes(num)
+// return find
+// }
+// console.log(set([1, 2, 3], 2))
