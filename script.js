@@ -518,3 +518,10 @@ let range = {
 // return arr.find((el) => el > 10)
 // }
 // console.log(set([1,20, 30]))
+
+
+// function set(arr){
+// return arr.some((el)=>el<0)
+
+// }
+// console.log(set([1, 1, 2]))
