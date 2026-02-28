@@ -587,3 +587,9 @@ let range = {
 // return find
 // }
 // console.log(set([1, 2, 3], 2))
+
+// function set(arr){
+// let result = arr.map((el)=>(el*2))
+// return result
+// }
+// console.log(set([1, 4]))
