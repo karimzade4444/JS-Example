@@ -562,3 +562,9 @@ let range = {
 // return result
 // }
 // console.log(set([1, 4]))
+
+// function set(arr){
+// let result = arr.map((el)=>(el+1))
+// return result
+// }
+// console.log(set([1, 4]))
