@@ -593,3 +593,9 @@ let range = {
 // return result
 // }
 // console.log(set([1, 4]))
+
+
+// function set(arr){
+// return arr.filter((el)=>el>0)
+// }
+// console.log(set([1, -2, 4]))
