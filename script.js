@@ -543,3 +543,14 @@ let range = {
 // return arr.filter((elem)=>elem>av)
 // }
 // console.log(set([2, 8]))
+
+
+// function set(arr){
+// let choch = 0;
+// arr.filter((el)=>{
+//   el%2===0 &&choch++
+// })
+// return choch
+// }
+
+// console.log(set([1, 4]))
