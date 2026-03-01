@@ -630,3 +630,8 @@ let range = {
 // }
 // console.log(set([1,2],[3]))
 
+// function set(arr,num1,num2){
+// return arr.slice(num1,num2)
+// }
+// console.log(set([1,2,3,4],1,3))
+
