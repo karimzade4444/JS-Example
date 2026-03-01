@@ -678,6 +678,12 @@ let range = {
 // console.log(set([1,2,3,4]))
 
 
+// function set(arr){
+//  let jo = arr.join(":")
+// return jo
+// }
+// console.log(set([1,2,3,4]))
+
 
 
 
