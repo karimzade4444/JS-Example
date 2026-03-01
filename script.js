@@ -672,5 +672,12 @@ let range = {
 // }
 // console.log(set([3,4,2,5,1]))
 
+// function set(arr){
+//   return arr.reverse()
+// }
+// console.log(set([1,2,3,4]))
+
+
+
 
 
