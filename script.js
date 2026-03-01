@@ -655,5 +655,10 @@ let range = {
 // }
 // console.log(set([1,2,3,4]))
 
+// function set(arr){
+// return arr.toString()
+// }
+// console.log(set([1,2,3,4]))
+
 
 
