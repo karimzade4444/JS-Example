@@ -612,3 +612,9 @@ let range = {
 // return arr;
 // }
 // console.log(set([1,2,3]))
+
+// function set(arr){
+// arr.shift()
+// return arr;
+// }
+// console.log(set([1,2,3]))
