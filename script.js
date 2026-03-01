@@ -650,5 +650,10 @@ let range = {
 // }
 // console.log(set([1,2,3,4],2))
 
+// function set(arr){
+// return arr.join("-")
+// }
+// console.log(set([1,2,3,4]))
+
 
 
