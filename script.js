@@ -309,10 +309,10 @@
 
 // console.log(a);
 
-let range = {
-  from: 1,
-  to: 5,
-};
+// let range = {
+//   from: 1,
+//   to: 5,
+// };
 
 // Мы хотим, чтобы работал for..of:
 // for(let num of range) ... num=1,2,3,4,5
