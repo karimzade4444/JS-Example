@@ -625,8 +625,8 @@ let range = {
 // }
 // console.log(set([1,2],3))
 
-// function set(arr,num){
-// arr.unshift(num)
-// return arr;
+// function set(arr1,arr2){
+// return arr1.concat(arr2)
 // }
-// console.log(set([1,2],3))
+// console.log(set([1,2],[3]))
+
