@@ -635,3 +635,8 @@ let range = {
 // }
 // console.log(set([1,2,3,4],1,3))
 
+// function set(arr,num1){
+// return arr.splice(num1)
+// }
+// console.log(set([1,2,3,4],1))
+
