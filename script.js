@@ -645,5 +645,10 @@ let range = {
 // }
 // console.log(set([1,2,3,4],2))
 
+// function set(arr,num1){
+// return arr.includes(num1)
+// }
+// console.log(set([1,2,3,4],2))
+
 
 
