@@ -660,5 +660,12 @@ let range = {
 // }
 // console.log(set([1,2,3,4]))
 
+// function set(arr){
+//   let str = ""
+// arr.forEach(element => str+=" "+element);
+// return str
+// }
+// console.log(set([1,2,3,4]))
+
 
 
