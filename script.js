@@ -640,3 +640,10 @@ let range = {
 // }
 // console.log(set([1,2,3,4],1))
 
+// function set(arr,num1){
+// return arr.indexOf(num1)
+// }
+// console.log(set([1,2,3,4],2))
+
+
+
