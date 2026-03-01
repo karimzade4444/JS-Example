@@ -684,6 +684,15 @@ let range = {
 // }
 // console.log(set([1,2,3,4]))
 
+// function set (arr){
+// arr.filter((el)=>{
+//   if(el<0){
+// arr.push("NEG")
+//   }
+// })
+// return arr
+// }
+// console.log(set([1,2,3]))
 
 
 
