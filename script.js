@@ -605,3 +605,10 @@ let range = {
 // return arr.find((el) => el > 5)
 // }
 // console.log(set([1,6, 8]))
+
+
+// function set(arr){
+// arr.pop()
+// return arr;
+// }
+// console.log(set([1,2,3]))
