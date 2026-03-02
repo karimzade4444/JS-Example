@@ -27,3 +27,16 @@
 //     }
 // }
 // console.log(map)
+
+
+// let arr = ["a", "b", "a", "c"];
+// let map = new Map()
+// for(let str of arr){
+//     if(map.has(str)){
+// map.set(str,map.get(str)+1)
+//     }
+//     else{
+//         map.set(str,1)
+//     }
+// }
+// console.log(map)
