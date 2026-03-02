@@ -40,3 +40,24 @@
 //     }
 // }
 // console.log(map)
+
+
+// let words = ["apple", "banana", "apple", "orange", "banana", "apple","apple"];
+// let map = new Map()
+// let max = 0;
+// let result = ""
+// for(let str of words){
+//     if(map.has(str) ){
+//     map.set(str,map.get(str)+1)
+   
+//     }
+//     else{
+//         map.set(str,1)
+//     }
+//     if (map.get(str) > max) {
+//     max = map.get(str);
+//     result = str;
+// }
+
+// }
+// console.log(result)
