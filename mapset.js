@@ -14,3 +14,16 @@
 // }
 // }
 // console.log(map);
+
+
+// let arr = [5, 5, 7, 8, 5];
+// let map = new Map()
+// for (let num of arr){
+//     if(map.has(num)){
+//         map.set(num,map.get(num)+1)
+//     }
+//     else{
+//         map.set(num,1)
+//     }
+// }
+// console.log(map)
