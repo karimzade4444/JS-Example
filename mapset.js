@@ -61,3 +61,26 @@
 
 // }
 // console.log(result)
+
+
+// let words = ["cat", "dog", "cat", "bird", "dog", "dog"];
+// let map = new Map()
+// let unic = new Set(words)
+// let max = 0;
+// let result = "";
+// for(let str of words){
+//     if(map.has(str)){
+//     map.set(str,map.get(str)+1)
+//     }
+//     else{
+//         map.set(str,1)
+//     }
+
+//     if(map.get(str)>max){
+//     max=map.get(str);
+//     result=str
+//     }
+// }
+// console.log(unic)
+// console.log(map)
+// console.log(result)
