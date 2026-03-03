@@ -23,3 +23,11 @@
 // let UTC = now.getUTCHours()
 // console.log(`Local:${Local}`)
 // console.log(`UTC:${UTC}`)
+
+
+let now = new Date()
+let Local = now.getHours()
+let Local1 = now.getMinutes()
+let UTC = now.getUTCHours()
+let UTC1 = now.getUTCMinutes()
+console.log(now)
