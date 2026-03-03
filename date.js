@@ -18,3 +18,8 @@
 
 // console.log(formatted);
 
+let now = new Date()
+let Local = now.getHours()
+let UTC = now.getUTCHours()
+console.log(`Local:${Local}`)
+console.log(`UTC:${UTC}`)
