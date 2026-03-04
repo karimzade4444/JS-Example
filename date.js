@@ -40,5 +40,9 @@
 // let day = minus/1000/60/60/24;
 // console.log(day)
 
-
+// let now = new Date("2026-03-03")
+// let newyear = new Date("2026-12-31")
+// let How = newyear-now;
+// let day = How/1000/60/60/24;
+// console.log(day)
 
