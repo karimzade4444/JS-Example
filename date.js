@@ -25,26 +25,9 @@
 // console.log(`UTC:${UTC}`)
 
 
-// let now = new Date()
-// let Local = now.getHours()
-// let Local1 = now.getMinutes()
-// let UTC = now.getUTCHours()
-// let UTC1 = now.getUTCMinutes()
-// console.log(now)
-// console.log(Local,":",Local1)
-// console.log(UTC,":",UTC1)
 
-// let d1 = new Date("2026-03-10");
-// let d2 = new Date("2026-03-05");
-// let minus = d1-d2;
-// let day = minus/1000/60/60/24;
-// console.log(day)
 
-// let now = new Date("2026-03-03")
-// let newyear = new Date("2026-12-31")
-// let How = newyear-now;
-// let day = How/1000/60/60/24;
-// console.log(day)
 
-let now = new Date("2026-03-04")
-console.log(now)
+
+
+
