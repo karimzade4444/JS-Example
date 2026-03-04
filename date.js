@@ -34,7 +34,11 @@
 // console.log(Local,":",Local1)
 // console.log(UTC,":",UTC1)
 
-
+// let d1 = new Date("2026-03-10");
+// let d2 = new Date("2026-03-05");
+// let minus = d1-d2;
+// let day = minus/1000/60/60/24;
+// console.log(day)
 
 
 
