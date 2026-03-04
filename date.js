@@ -46,3 +46,5 @@
 // let day = How/1000/60/60/24;
 // console.log(day)
 
+// let now = new Date("2026-03-04")
+// console.log(now)
