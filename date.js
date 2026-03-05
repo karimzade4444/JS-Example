@@ -1,7 +1,6 @@
 // let now = new Date();
 // console.log(now)
 
-
 // let now = new Date();
 
 // // Получаем части
@@ -24,7 +23,6 @@
 // console.log(`Local:${Local}`)
 // console.log(`UTC:${UTC}`)
 
-
 // let now = new Date()
 // let Local = now.getHours()
 // let Local1 = now.getMinutes()
@@ -46,5 +44,26 @@
 // let day = How/1000/60/60/24;
 // console.log(day)
 
-// let now = new Date("2026-03-04")
-// console.log(now)
+// let now = new Date();
+// console.log(now.getTimezoneOffset());
+// let ogoz = Date.now();
+// let banka;
+// for (let i = 0; i < 100000; i++) {
+//   banka = i + i;
+// }
+// let anjom = Date.now();
+// console.log("цикл инамика кор кад", (anjom - ogoz) / 1000);
+// let now = new Date();
+// console.log(
+//   now.toLocaleDateString("tg-Tj", {
+//     year: "numeric",
+//     month: "long",
+//     day: "numeric",
+//     hour: "numeric",
+//   }),
+// );
+
+
+
+
+
