@@ -19,9 +19,9 @@
 
 // console.log(misol(3, 5));
 
-let sum = 0;
-function rec(num) {
-  sum += num;
-  return num==0 ? sum : rec(num - 1);
-}
-console.log(rec(6));
+// let sum = 0;
+// function rec(num) {
+//   sum += num;
+//   return num==0 ? sum : rec(num - 1);
+// }
+// console.log(rec(6));
