@@ -32,3 +32,41 @@
 //   return num==0 ? sum : rec(num - 1);
 // }
 // console.log(rec(6));
+
+// function showName(...rest) {
+//   return Math.max(...rest);
+
+// }
+
+// console.log(showName(2, 3, 4));
+
+// let a = 5;
+
+// function musol() {
+//   return a + a;
+// }
+
+// function sayHiBye(firstName, lastName) {
+//   let cnt = 0;
+//   return function getFullName() {
+//     cnt = cnt + 1;
+//     return cnt;
+//   };
+// }
+// let banka = sayHiBye();
+
+// console.log(banka());
+// console.log(banka());
+// console.log(banka());
+
+// function zarb(num){
+//  return function(zarbb){
+//     return num*zarbb;
+//  }
+// }
+
+// let ne = zarb(4)
+// console.log(ne(5))
+
+
+
