@@ -68,13 +68,13 @@
 // let ne = zarb(4)
 // console.log(ne(5))
 
-function set(str){
- return function(kalima){
-    return kalima;
- }
-}
-let ne = set("JS")
-console.log(ne)
+// function set(str){
+//  return function(){
+//     return str;
+//  }
+// }
+// let ne = set("JS")
+// console.log(ne())
 
 
 
