@@ -76,5 +76,24 @@
 // let ne = set("JS")
 // console.log(ne())
 
+// function sayHiBye(firstName, lastName) {
+//   let cnt = 0;
+//   return function getFullName() {
+//     cnt=cnt+1;
+//     if(cnt<=3){
+//     return "ok"
+//     }
+//     else{
+//         return "limit is out";
+//     }
+//   };
+// }
+// let banka = sayHiBye();
+
+// console.log(banka());
+// console.log(banka());
+// console.log(banka());
+// console.log(banka());
+
 
 
