@@ -209,6 +209,23 @@
 // console.log(banka());
 // console.log(banka());
 
+// function sayHiBye(num) {
+//   let cnt = num;
+//   return {
+//     increment: () => {
+//       num = num + 1;
+//       return num;
+//     },
+//     reset: () => {
+//       return cnt;
+//     },
+//     decrement: () => {
+//       return num - 1;
+//     },
+//   };
+// }
+// let { increment, reset, decrement } = sayHiBye(5);
 
+// console.log(increment());
 
 
