@@ -228,4 +228,15 @@
 
 // console.log(increment());
 
+// function expect(val) {
+//   return {
+//     toBe: (num) => {
+//       return val == num;
+//     },
+//     notToBe: (num) => {
+//       return val != num;
+//     },
+//   };
+// }
 
+// console.log(expect(5).toBe(4));
