@@ -76,7 +76,7 @@
 // let ne = set("JS")
 // console.log(ne())
 
-// function sayHiBye(firstName, lastName) {
+// function sayHiBye() {
 //   let cnt = 0;
 //   return function getFullName() {
 //     cnt=cnt+1;
@@ -95,5 +95,31 @@
 // console.log(banka());
 // console.log(banka());
 
+///добавление в конце масива
+
+//  1  -   function newUser(user){
+// let users = [
+//   {
+//     id: 1,
+//     name: "Muhammad",
+//     age: 18,
+//   },
+//   {
+//     id: 2,
+//     name: "Mustafo",
+//     age: 20,
+//   },
+// ];
+
+// users.push(user)
+
+// return users
+
+// }
+// console.log(newUser({id:3,name:"sds",age:12}))
+// createUser({id:3,name:"sds",age:12})
 
 
+// deleteUser(2)
+// findUser(2)
+//editUser(1,{name:bankasar,age:22})
