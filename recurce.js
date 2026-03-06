@@ -141,6 +141,23 @@
 // deleteUser(2)
 
 
+// function findUser(num){
+// let users = [
+//   {
+//     id: 1,
+//     name: "Muhammad",
+//     age: 18,
+//   },
+//   {
+//     id: 2,
+//     name: "Mustafo",
+//     age: 20,
+//   },
+// ];
+// return users.find((el)=>el.id==num)
+
+// }
+// console.log(findUser( 2))
 
 // findUser(2)
 //editUser(1,{name:bankasar,age:22})
