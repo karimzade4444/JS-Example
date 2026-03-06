@@ -119,7 +119,6 @@
 // console.log(newUser({id:3,name:"sds",age:12}))
 // createUser({id:3,name:"sds",age:12})
 
-
 // function deleteUser(num){
 // let users = [
 //   {
@@ -140,7 +139,6 @@
 
 // deleteUser(2)
 
-
 // function findUser(num){
 // let users = [
 //   {
@@ -160,4 +158,85 @@
 // console.log(findUser( 2))
 
 // findUser(2)
+
+// function editUser(id, ob) {
+//   let users = [
+//     {
+//       id: 1,
+//       name: "Muhammad",
+//       age: 18,
+//     },
+//     {
+//       id: 2,
+//       name: "Mustafo",
+//       age: 20,
+//     },
+//   ];
+//   users.forEach((el) => {
+//     if (el.id == id) {
+//       el.name = ob.name;
+//       el.age = ob.age;
+//     }
+//   });
+//   return users;
+// }
+
+// console.log(editUser(1, { name: "bankasar", age: 22 }));
+
 //editUser(1,{name:bankasar,age:22})
+
+// function sayHiBye() {
+//   let cnt = "Hello World";
+//   return function getFullName() {
+//       return cnt;
+//   };
+
+// }
+// let banka = sayHiBye();
+
+// console.log(banka());
+
+// function sayHiBye() {
+//   let n = 10;
+//   let cnt = n;
+//   return function getFullName() {
+//     return (cnt = cnt + 1);
+//   };
+// }
+// let banka = sayHiBye();
+
+// console.log(banka());
+// console.log(banka());
+// console.log(banka());
+
+// function sayHiBye(num) {
+//   let cnt = num;
+//   return {
+//     increment: () => {
+//       num = num + 1;
+//       return num;
+//     },
+//     reset: () => {
+//       return cnt;
+//     },
+//     decrement: () => {
+//       return num - 1;
+//     },
+//   };
+// }
+// let { increment, reset, decrement } = sayHiBye(5);
+
+// console.log(increment());
+
+// function expect(val) {
+//   return {
+//     toBe: (num) => {
+//       return val == num;
+//     },
+//     notToBe: (num) => {
+//       return val != num;
+//     },
+//   };
+// }
+
+// console.log(expect(5).toBe(4));
