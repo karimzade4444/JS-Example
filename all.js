@@ -31,3 +31,10 @@
 //     }
 // }
 // console.log(map)
+
+
+// let d1 = new Date("2026-03-10");
+// let d2 = new Date("2026-03-05");
+// let ml = d1-d2;
+// let day = ml/1000/3600/24;
+// console.log(day)
