@@ -12,3 +12,10 @@
 // person.age = 21;
 // console.log(person)
 
+
+// let numbers = [1, 2, 3, 4, 5];
+// let mapp = numbers.map((el)=>el*2)
+// console.log(mapp)
+// let filt = mapp.filter((el)=>el>5)
+// console.log(filt)
+
