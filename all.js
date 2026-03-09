@@ -4,3 +4,11 @@
 // console.log(nums)
 
 
+// let person = {
+//   name: "Али",
+//   age: 20
+// };
+// person.city = "BOXTAR"
+// person.age = 21;
+// console.log(person)
+
