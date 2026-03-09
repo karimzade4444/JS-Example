@@ -19,3 +19,15 @@
 // let filt = mapp.filter((el)=>el>5)
 // console.log(filt)
 
+// let str = "aabbc";
+// let map = new Map()
+// let arr = Array.from(str)
+// for(let maxx of arr){
+//     if(map.has(maxx)){
+//         map.set(maxx,map.get(maxx)+1)
+//     }
+//     else{
+//         map.set(maxx,1)
+//     }
+// }
+// console.log(map)
